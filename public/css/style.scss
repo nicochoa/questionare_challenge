@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#points, 
+#question-text{
+    text-align: center;
+}
+#question-text{
+    font-size: 3.5rem;
+}
+#points{
+    font-size: 1.5rem;
+    color: rgb(100, 99, 99);
+}
+label{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#answers > p {
+    padding:  1rem 2rem 1rem 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    outline: rgb(255, 231, 72) solid 3px ;
+    background-color: rgb(255, 231, 72);
+    width: 15%;
+    text-align: center;
+    border-radius: 2rem;
+    &:hover{
+        background-color: rgba(219, 219, 219, 0.5);
+
+    }
+
+}
+#answers{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#questions > button{
+    display: block;
+    margin-left: 46%;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 2.3rem 2rem;
+    border-radius: 50%;
+
+    &:hover{
+        background-color: rgb(246, 87, 87);
+        color: white;
+    }
+}
+#info{
+    display: flex;
+    padding-top: 3rem;
+    width: 100%;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(81, 81, 81);
+}
+#winner-cont > p {
+    text-align: center;
+}
+#rounds-cont > p {
+    text-align: center;
+}
+

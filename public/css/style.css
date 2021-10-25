@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#points,
+#question-text {
+  text-align: center;
+}
+
+#question-text {
+  font-size: 3.5rem;
+}
+
+#points {
+  font-size: 1.5rem;
+  color: #646363;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#answers > p {
+  padding: 1rem 2rem 1rem 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+  outline: #ffe748 solid 3px;
+  background-color: #ffe748;
+  width: 15%;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+#answers > p:hover {
+  background-color: rgba(219, 219, 219, 0.5);
+}
+
+#answers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#questions > button {
+  display: block;
+  margin-left: 46%;
+  margin-bottom: 1rem;
+  border: none;
+  padding: 2.3rem 2rem;
+  border-radius: 50%;
+}
+
+#questions > button:hover {
+  background-color: #f65757;
+  color: white;
+}
+
+#info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3rem;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: 2px solid #515151;
+}
+
+#winner-cont > p {
+  text-align: center;
+}
+
+#rounds-cont > p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
